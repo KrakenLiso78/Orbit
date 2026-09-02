@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_PATH = ROOT / "specs/001-revision-trimestral-big-pharma/contracts/snapshot.schema.json"
+SCHEMA_PATH = ROOT / "specs/001-quarterly-big-pharma-review/contracts/snapshot.schema.json"
 
 
 def fail(message: str) -> None:

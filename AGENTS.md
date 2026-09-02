@@ -1,41 +1,42 @@
 # AGENTS.md
 
-## Contexto
+## Context
 
-Este repositorio sigue Spec-Driven Development con una estructura compatible con GitHub Spec Kit. La feature canónica es `specs/001-revision-trimestral-big-pharma`.
+This repository follows Spec-Driven Development using a GitHub Spec Kit-compatible structure. The canonical feature directory is `specs/001-quarterly-big-pharma-review`.
 
-## Orden de lectura obligatorio
+## Required reading order
 
-Antes de investigar o cambiar el sitio, leer:
+Before researching or changing the site, read:
 
 1. `.specify/memory/constitution.md`
-2. `specs/001-revision-trimestral-big-pharma/spec.md`
-3. `specs/001-revision-trimestral-big-pharma/plan.md`
-4. `specs/001-revision-trimestral-big-pharma/tasks.md`
+2. `specs/001-quarterly-big-pharma-review/spec.md`
+3. `specs/001-quarterly-big-pharma-review/plan.md`
+4. `specs/001-quarterly-big-pharma-review/tasks.md`
 5. `data/snapshots/latest.json`
 6. `reports/latest.md`
 7. `operations/executions/latest.json`
 
-## Límites de los artefactos
+## Artifact boundaries
 
-- `spec.md`: qué y por qué; comportamiento y criterios de aceptación. No incluir stack ni decisiones técnicas.
-- `plan.md`: cómo; arquitectura de artefactos, proceso, validaciones y decisiones técnicas. No duplicar requisitos.
-- `tasks.md`: unidades pequeñas, ordenadas, con ruta y validación concreta.
-- `research.md`: decisiones metodológicas reutilizables, no noticias trimestrales.
-- Los resultados de cada ejecución pertenecen a `reports/`, `data/` y `operations/`.
+- `spec.md`: what and why; behaviour and acceptance criteria. Do not include stack or technical decisions.
+- `plan.md`: how; artifact architecture, process, validation, and technical decisions. Do not duplicate requirements.
+- `tasks.md`: small, ordered units with a concrete path and validation step.
+- `research.md`: reusable methodology decisions, not quarterly news.
+- Results from each execution belong in `reports/`, `data/`, and `operations/`.
 
-## Reglas de trabajo
+## Working rules
 
-- No sobrescribir históricos fechados.
-- No actualizar `latest` hasta completar todos los controles.
-- Mantener ranking anual y momentum trimestral separados.
-- Distinguir datos reportados, previsiones de terceros y estimaciones propias.
-- No atribuir CRM sin evidencia pública explícita y alcance documentado.
-- Reutilizar el `project_id` existente en `site/.openai/hosting.json`; no crear otro sitio.
-- Verificar escritorio, móvil y ES/EN antes de publicar.
-- Buscar el asunto exacto en Enviados antes de mandar correo y registrar después su ID.
-- Usar Conventional Commits y mantener cada commit centrado en un único checkpoint.
+- Do not overwrite dated historical artifacts.
+- Do not update `latest` until all controls have passed.
+- Keep the annual ranking separate from quarterly momentum.
+- Distinguish reported data, third-party forecasts, and own estimates.
+- Do not attribute a CRM without explicit public evidence and documented scope.
+- Reuse the existing `project_id` in `site/.openai/hosting.json`; do not create another site.
+- Verify desktop, mobile, and ES/EN before publishing.
+- Search Sent for the exact subject before sending an email and record its ID afterwards.
+- Use Conventional Commits and keep each commit focused on one checkpoint.
+- Maintain project documentation and reports in English. Preserve source material in its original language when required for auditability.
 
-## Estado inicial
+## Initial state
 
-La baseline validada es `2026-Q3`. La URL estable es `https://pharma-shift-2030.guillermo1983.chatgpt.site`.
+The validated baseline is `2026-Q3`. The stable URL is `https://pharma-shift-2030.guillermo1983.chatgpt.site`.

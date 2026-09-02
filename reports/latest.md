@@ -1,94 +1,94 @@
-# Ranking mundial de Big Pharma por ventas farmacéuticas
+# Global Big Pharma Ranking by Pharmaceutical Sales
 
-**Revisión trimestral · baseline inicial · 1 de septiembre de 2026**
+**Quarterly review · initial baseline · 1 September 2026**
 
-## Resumen ejecutivo
+## Executive summary
 
-Eli Lilly ya lideró el ejercicio 2025 con 65,2 mil millones de dólares de ventas de medicamentos y amplía la brecha en 2026: su guidance se elevó a 85–87 mil millones. Novo Nordisk es el candidato con mayor ascenso relativo —del puesto 11 a un rango 2–4 en 2030—, aunque la presión competitiva, de acceso y precios hace que su intervalo sea más incierto que el de Lilly.
+Eli Lilly led FY2025 with USD 65.2 billion in medicines sales and widened the gap during 2026 after raising guidance to USD 85–87 billion. Novo Nordisk has the strongest potential relative gain—from rank 11 to a 2–4 range by 2030—although competitive, access, and pricing pressure make its range less certain than Lilly’s.
 
-La posición relativa se mueve más deprisa que las ventas absolutas. Pfizer puede conservar más de 50 mil millones de ventas en 2030 y caer del segundo puesto al rango 9–12; Merck/MSD y Bristol Myers Squibb afrontan una divergencia similar por sus pérdidas de exclusividad. En sentido contrario, AbbVie puede subir tres posiciones apoyada en Skyrizi, Rinvoq y neurociencia, pese a la erosión de Humira.
+Relative position is changing faster than absolute sales. Pfizer could retain more than USD 50 billion in 2030 sales and still fall from second place to a 9–12 range. Merck/MSD and Bristol Myers Squibb face a similar divergence because of loss of exclusivity. Conversely, AbbVie could gain three places on the strength of Skyrizi, Rinvoq, and neuroscience despite Humira erosion.
 
-La proyección central sitúa a Lilly, Novo, AstraZeneca, AbbVie y Johnson & Johnson como los cinco primeros en 2030. No es una predicción puntual: entre los puestos 2 y 8 hay solapamientos suficientes para justificar rangos. Las estimaciones propias se anclan en Evaluate Pharma, objetivos corporativos, guidance y resultados publicados hasta la fecha de corte.
+The central scenario places Lilly, Novo Nordisk, AstraZeneca, AbbVie, and Johnson & Johnson in the top five by 2030. This is not a point forecast: the overlap between ranks 2 and 8 is wide enough to justify ranges. Own estimates are anchored in Evaluate Pharma forecasts, company targets, guidance, and results published by the cut-off date.
 
-## Top 10 actual y proyección 2030
+## Current top 10 and 2030 projection
 
-| Pos. FY2025 | Compañía | Ventas pharma FY2025 (USD bn) | Pos. 2030 | Ventas 2030 (USD bn) | Cambio central | Tendencia | Driver principal | CRM comercial |
+| FY2025 rank | Company | FY2025 pharma sales (USD bn) | 2030 rank | 2030 sales (USD bn) | Central change | Trend | Main driver | Commercial CRM |
 |---:|---|---:|---:|---:|---:|---|---|---|
-| 1 | Eli Lilly | 65,18 | 1 | 112–130 | 0 | Crecimiento | Tirzepatida, orforglipron y retatrutida | En transición a Veeva Vault CRM; decisión global pública |
-| 2 | Pfizer | 62,58 | 9–12 | 52–62 | -8 | Deterioro relativo | LOE, normalización COVID; Seagen y oncología compensan parcialmente | En transición a Salesforce; early adopter, alcance global no explicitado |
-| 3 | J&J Innovative Medicine | 60,40 | 4–7 | 67–78 | -2 | Crecimiento moderado | Darzalex, Tremfya, Carvykti; LOE de Stelara | No pública |
-| 4 | AstraZeneca | 58,74 | 2–5 | 72–82 | +1 | Crecimiento | Oncología, rare disease y objetivo corporativo de 80 bn | En transición a Salesforce; plataforma global unificada |
-| 5 | Merck/MSD | 58,14 | 7–10 | 58–68 | -3 | Deterioro relativo | Keytruda LOE; Winrevair, Capvaxive y BD | En transición a Veeva Vault CRM; despliegue global no detallado |
-| 6 | Roche Pharmaceuticals | 57,49 | 5–8 | 66–74 | 0 | Estable | Hemlibra, Vabysmo, Phesgo y pipeline oncológico | En transición a Veeva Vault CRM; organización Pharma global |
-| 7 | AbbVie | 56,30 | 2–5 | 72–82 | +3 | Crecimiento | Skyrizi, Rinvoq, Vraylar y Ubrelvy | En transición a Salesforce; alcance no publicado |
-| 8 | Novartis | 54,53 | 7–10 | 55–66 | -1 | Estable | Kisqali, Pluvicto, Scemblix; Entresto LOE | En transición a Salesforce; despliegue global a cinco años |
-| 9 | Sanofi | 49,30 | 5–8 | 65–74 | +2 | Crecimiento | Dupixent, Beyfortus y nuevos lanzamientos | No pública |
-| 10 | Bristol Myers Squibb | 48,19 | 10–13 | 44–54 | -2 | Deterioro relativo | Eliquis/Revlimid/Pomalyst LOE; Camzyos, Cobenfy y células T | En transición a Veeva Vault CRM; alcance global no detallado |
+| 1 | Eli Lilly | 65.18 | 1 | 112–130 | 0 | Growth | Tirzepatide, orforglipron, retatrutide | Transitioning to Veeva Vault CRM; public global decision |
+| 2 | Pfizer | 62.58 | 9–12 | 52–62 | -8 | Relative deterioration | Loss of exclusivity and COVID normalisation; Seagen and oncology partly offset | Transitioning to Salesforce; early adopter, global scope not disclosed |
+| 3 | J&J Innovative Medicine | 60.40 | 4–7 | 67–78 | -2 | Moderate growth | Darzalex, Tremfya, Carvykti; Stelara loss of exclusivity | Not public |
+| 4 | AstraZeneca | 58.74 | 2–5 | 72–82 | +1 | Growth | Oncology, rare disease, and USD 80bn company target | Transitioning to Salesforce; unified global platform |
+| 5 | Merck/MSD | 58.14 | 7–10 | 58–68 | -3 | Relative deterioration | Keytruda loss of exclusivity; Winrevair, Capvaxive, and business development | Transitioning to Veeva Vault CRM; global rollout detail not public |
+| 6 | Roche Pharmaceuticals | 57.49 | 5–8 | 66–74 | 0 | Stable | Hemlibra, Vabysmo, Phesgo, and oncology pipeline | Transitioning to Veeva Vault CRM; global Pharma organisation |
+| 7 | AbbVie | 56.30 | 2–5 | 72–82 | +3 | Growth | Skyrizi, Rinvoq, Vraylar, and Ubrelvy | Transitioning to Salesforce; scope not public |
+| 8 | Novartis | 54.53 | 7–10 | 55–66 | -1 | Stable | Kisqali, Pluvicto, Scemblix; Entresto loss of exclusivity | Transitioning to Salesforce; five-year global rollout |
+| 9 | Sanofi | 49.30 | 5–8 | 65–74 | +2 | Growth | Dupixent, Beyfortus, and new launches | Not public |
+| 10 | Bristol Myers Squibb | 48.19 | 10–13 | 44–54 | -2 | Relative deterioration | Eliquis, Revlimid, and Pomalyst loss of exclusivity; Camzyos, Cobenfy, and cell therapy | Transitioning to Veeva Vault CRM; global scope not detailed |
 
-**Amenazas de entrada:** Novo Nordisk (puesto 11; 46,8 bn), GSK (12; 43,1 bn) y, con menor probabilidad a cinco años, Amgen (13; 36,8 bn). Takeda y Boehringer Ingelheim quedan más alejadas con la métrica utilizada.
+**Entry candidates:** Novo Nordisk (rank 11; USD 46.8bn), GSK (12; USD 43.1bn), and—with lower five-year probability—Amgen (13; USD 36.8bn). Takeda and Boehringer Ingelheim remain further behind under the metric used.
 
-## Metodología
+## Methodology
 
-- Métrica: ventas netas atribuibles a medicamentos de prescripción y vacunas. Se excluyen MedTech de J&J, Diagnostics de Roche, Animal Health de Merck y Aesthetics de AbbVie. El ajuste de AbbVie es analítico y explica diferencias con rankings que incluyen estética.
-- AstraZeneca, Merck y BMS incluyen ingresos de alianzas o royalties ligados al negocio farmacéutico cuando la propia compañía los reporta dentro de ese segmento.
-- Periodo: ejercicio completo FY2025. Takeda se presenta solo en el universo ampliado y usa el ejercicio cerrado el 31 de marzo de 2026.
-- Conversión: medias anuales 2025 del BCE o bancos centrales: EUR/USD 1,1300; EUR/CHF 0,9370; EUR/GBP 0,85687; EUR/DKK 7,4634; EUR/JPY 169,07.
-- Proyección: rangos propios a 2030, construidos desde previsiones de Evaluate Pharma, objetivos corporativos, guidance 2026, consenso sectorial, LOE y pipeline. El punto medio solo sirve para ordenar el gráfico.
-- CRM: solo se clasifica una plataforma cuando existe anuncio corporativo o evidencia pública inequívoca. Un cliente de Veeva CRM legacy no implica una decisión por Vault CRM; una prueba o despliegue de Salesforce en una unidad tampoco implica decisión global.
+- **Metric:** net sales attributable to prescription medicines and vaccines. J&J MedTech, Roche Diagnostics, Merck Animal Health, and AbbVie Aesthetics are excluded. The AbbVie adjustment is analytical and explains differences from rankings that include aesthetics.
+- **Alliance revenue:** AstraZeneca, Merck, and BMS include alliance or royalty revenue linked to pharmaceuticals when the company reports it within the relevant segment.
+- **Period:** complete FY2025. Takeda appears only in the wider universe and uses the fiscal year ended 31 March 2026.
+- **Conversion:** 2025 annual average ECB or central-bank rates: EUR/USD 1.1300; EUR/CHF 0.9370; EUR/GBP 0.85687; EUR/DKK 7.4634; EUR/JPY 169.07.
+- **Projection:** own 2030 ranges built from Evaluate Pharma forecasts, company targets, 2026 guidance, sector consensus, loss of exclusivity, and pipeline. The midpoint only orders the visual.
+- **CRM:** a platform is classified only when a corporate announcement or unequivocal public evidence exists. Use of Veeva CRM legacy does not imply a Vault CRM decision; a Salesforce deployment in one unit does not imply a global corporate decision.
 
-## Movimientos competitivos relevantes
+## Major competitive movements
 
 ### Eli Lilly
 
-El liderazgo se vuelve estructural. Mounjaro/Zepbound, las extensiones de tirzepatida y el pipeline de obesidad permiten un crecimiento muy superior al mercado. Orforglipron puede ampliar el mercado oral y retatrutida añadió evidencia positiva de fase III en 2026. Los principales riesgos son capacidad industrial, acceso, precio y concentración en incretinas.
+Leadership is becoming structural. Mounjaro/Zepbound, tirzepatide indication expansion, and the obesity pipeline support market-leading growth. Orforglipron could expand the oral market, while retatrutide added positive phase III evidence in 2026. Main risks are manufacturing capacity, access, price, and incretin concentration.
 
 ### Novo Nordisk
 
-El salto relativo sigue siendo el mayor del sector, pero la previsión es menos lineal que hace dos años. Wegovy/Ozempic y la siguiente generación sostienen el crecimiento; Lilly, compounded products, negociación de precios y ejecución comercial ensanchan el rango. La decisión pública por Vault CRM se limita a International Operations y no debe presentarse como global.
+Novo still has the largest expected relative gain, but the forecast is less linear than it appeared two years ago. Wegovy/Ozempic and the next generation support growth, while Lilly, compounded products, price negotiation, and commercial execution widen the range. The public Vault CRM decision covers International Operations and must not be described as global.
 
 ### AbbVie
 
-Skyrizi y Rinvoq han sustituido Humira más rápido de lo esperado, mientras Vraylar, Ubrelvy y Qulipta diversifican hacia neurociencia. El principal sesgo alcista procede de ejecución comercial y adquisiciones de activos en inmunología; el bajista, de concentración creciente en dos franquicias.
+Skyrizi and Rinvoq have replaced Humira faster than expected, while Vraylar, Ubrelvy, and Qulipta diversify the company into neuroscience. Upside comes from commercial execution and immunology asset acquisitions; downside comes from growing concentration in two major franchises.
 
 ### AstraZeneca
 
-La compañía mantiene uno de los perfiles más diversificados de crecimiento, con oncología, enfermedades raras y biológicos respiratorios. Su objetivo de 80 bn en 2030 es más alto que la previsión de Evaluate publicada en 2025; el rango refleja esta divergencia y el riesgo clínico/competitivo de la cartera.
+AstraZeneca retains one of the most diversified growth profiles across oncology, rare diseases, and respiratory biologics. Its USD 80 billion 2030 company target is higher than Evaluate’s 2025 forecast. The range reflects this divergence and the clinical and competitive risk in the portfolio.
 
-### Johnson & Johnson y Roche
+### Johnson & Johnson and Roche
 
-Ambas pueden crecer en términos absolutos y perder posición relativa. J&J debe absorber Stelara mientras escalan Darzalex, Tremfya y Carvykti. Roche compensa biosimilares históricos con Hemlibra, Vabysmo, Phesgo y activos como divarasib; su pipeline puede hacer que el consenso sea conservador, pero la conversión clínica sigue siendo el principal riesgo.
+Both companies can grow in absolute terms while losing relative position. J&J must absorb Stelara erosion while Darzalex, Tremfya, and Carvykti scale. Roche is offsetting historical biosimilar erosion with Hemlibra, Vabysmo, Phesgo, and assets such as divarasib. Its pipeline may make consensus conservative, but clinical conversion remains the main risk.
 
-### Merck/MSD, Pfizer y BMS
+### Merck/MSD, Pfizer, and BMS
 
-Son las compañías donde LOE y posición relativa pesan más. Merck dispone de Winrevair, Capvaxive y una elevada capacidad de BD, pero ninguna previsión elimina completamente el hueco de Keytruda. Pfizer necesita que Seagen, oncología y adquisiciones cubran simultáneamente la normalización COVID y una cesta de patentes. BMS elevó guidance 2026 y crece con Camzyos, Cobenfy y terapias celulares, aunque Eliquis, Revlimid y Pomalyst mantienen el riesgo de caída fuera del top 10.
+This group faces the greatest interaction between loss of exclusivity and relative rank. Merck has Winrevair, Capvaxive, and substantial business-development capacity, but no forecast fully removes the Keytruda gap. Pfizer needs Seagen, oncology, and acquisitions to offset both COVID normalisation and a patent-expiry basket. BMS raised 2026 guidance and is growing with Camzyos, Cobenfy, and cell therapies, but Eliquis, Revlimid, and Pomalyst keep the risk of falling outside the top 10.
 
-### Novartis y Sanofi
+### Novartis and Sanofi
 
-Novartis muestra buen crecimiento de marcas prioritarias, pero Entresto cayó con fuerza tras LOE; Kisqali, Pluvicto y Scemblix determinan su estabilidad. Sanofi gana posiciones por Dupixent, Beyfortus y lanzamientos, aunque la retirada del filing global de amlitelimab y discontinuaciones de pipeline reducen parte del optimismo anterior.
+Novartis has strong priority-brand growth, but Entresto declined sharply after loss of exclusivity; Kisqali, Pluvicto, and Scemblix determine its stability. Sanofi gains positions through Dupixent, Beyfortus, and launches, although the withdrawal of the global amlitelimab filing and pipeline discontinuations reduce some earlier optimism.
 
-### GSK, Amgen y Takeda
+### GSK, Amgen, and Takeda
 
-GSK es la amenaza más plausible al décimo puesto junto a Novo, respaldada por vacunas, VIH, oncología y specialty medicines. Amgen necesita que Tezspire, Repatha, Evenity y MariTide compensen productos maduros y la integración de Horizon. Takeda conserva franquicias fuertes en GI y rare diseases, pero su escala en dólares y calendario fiscal la mantienen fuera del top 10 central.
+GSK is the most plausible challenger for tenth place alongside Novo Nordisk, supported by vaccines, HIV, oncology, and specialty medicines. Amgen needs Tezspire, Repatha, Evenity, and MariTide to offset mature products and the Horizon integration. Takeda retains strong GI and rare-disease franchises, but its dollar scale and fiscal calendar keep it outside the central top 10.
 
-## CRM landscape de Big Pharma
+## Big Pharma CRM landscape
 
-**Decisión pública por Veeva Vault CRM:** Lilly (global), Roche (Pharma global), Merck/MSD y BMS (compromiso anunciado, detalle de rollout no público). Fuera del top 10, GSK comunicó el paso a Vault CRM y Novo lo hizo para International Operations, no para toda la compañía.
+**Public Veeva Vault CRM decisions:** Lilly (global), Roche (global Pharma), Merck/MSD, and BMS (commitments announced, rollout detail not public). Outside the current top 10, GSK disclosed a Vault CRM transition and Novo Nordisk did so for International Operations, not the entire company.
 
-**Decisión pública por Salesforce:** AstraZeneca y Novartis anunciaron plataformas globales. Pfizer y AbbVie figuran como early adopters/clientes de Life Sciences Cloud o Agentforce Life Sciences, pero la evidencia pública no explicita un despliegue corporativo global completado.
+**Public Salesforce decisions:** AstraZeneca and Novartis announced global platforms. Pfizer and AbbVie are named as Life Sciences Cloud or Agentforce Life Sciences early adopters/customers, but public evidence does not describe a completed global corporate rollout.
 
-**Sin decisión pública clara:** J&J y Sanofi. La ausencia de anuncio no demuestra ausencia de plataforma; solo limita la clasificación verificable.
+**No clear public decision:** J&J and Sanofi. Lack of an announcement does not demonstrate absence of a platform; it only limits verifiable classification.
 
-La competencia se ha desplazado desde el CRM clásico hacia una plataforma de engagement con datos, contenido, IA y cumplimiento integrados. Veeva conserva credenciales sectoriales y suma grandes migraciones a Vault CRM; Salesforce ha conseguido dos mandatos globales visibles y varias adopciones tempranas. Los recuentos publicados por proveedores no son comparables y no permiten inferir cuota.
+Competition has shifted from traditional CRM toward engagement platforms combining data, content, AI, and compliance. Veeva retains strong sector credentials and has added major Vault CRM migrations. Salesforce has secured two visible global mandates and several early adoptions. Vendor-reported customer counts are not comparable and cannot establish market share.
 
-## Qué ha cambiado desde la última revisión
+## Baseline for future reviews
 
-Esta es la **baseline inicial**, por lo que no existe una revisión anterior comparable. Como punto de partida para el siguiente trimestre se registran únicamente novedades materiales de 2026: Lilly elevó guidance a 85–87 bn y comunicó resultados positivos de fase III para retatrutida; Sanofi elevó su ritmo de crecimiento pero frenó amlitelimab y otros activos; BMS elevó guidance; Novo mejoró su outlook tras el segundo trimestre; Novartis absorbió una fuerte caída de Entresto; AbbVie anunció la adquisición de Apogee; Merck anunció la adquisición de Terns; y se hicieron públicas nuevas decisiones CRM de Lilly y del ámbito International Operations de Novo.
+This is the **initial baseline**, so no previous review exists for comparison. The starting material changes recorded for the next quarter are: Lilly raised guidance to USD 85–87 billion and reported positive phase III retatrutide results; Sanofi accelerated growth but stopped amlitelimab and other assets; BMS raised guidance; Novo Nordisk improved its outlook after Q2; Novartis absorbed a sharp Entresto decline; AbbVie announced the acquisition of Apogee; Merck announced the acquisition of Terns; and new CRM decisions became public for Lilly and Novo Nordisk International Operations.
 
-## Fuentes principales
+## Main sources
 
 - [Evaluate World Preview 2025](https://www.evaluate.com/thought-leadership/world-preview-2025/)
 - [Evaluate World Preview 2026](https://www.evaluate.com/thought-leadership/world-preview-2026/)
-- [Lilly Q2 2026 y guidance](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full)
+- [Lilly Q2 2026 and guidance](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full)
 - [J&J Q2 2026](https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q2-2026-results-raises-2026-outlook/default.aspx)
 - [AstraZeneca H1 2026](https://www.astrazeneca.com/media-centre/press-releases/2026/h1-and-q2-2026-results.html)
 - [Roche H1 2026](https://www.roche.com/media/releases/med-cor-2026-07-23)

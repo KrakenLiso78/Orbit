@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pharma-shift-2030.guillermo1983.chatgpt.site/contracts/snapshot.schema.json",
+  "title": "PharmaShift quarterly snapshot",
+  "type": "object",
+  "required": ["schema_version", "review_id", "as_of_date", "baseline", "metric", "currency", "units", "projection_year", "ranking"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "review_id": {"type": "string", "pattern": "^[0-9]{4}-Q[1-4](-baseline)?$"},
+    "as_of_date": {"type": "string", "format": "date"},
+    "baseline": {"type": "boolean"},
+    "metric": {"type": "string", "minLength": 1},
+    "currency": {"const": "USD"},
+    "units": {"const": "billions"},
+    "projection_year": {"type": "integer", "minimum": 2026},
+    "ranking": {
+      "type": "array",
+      "minItems": 15,
+      "items": {
+        "type": "object",
+        "required": ["rank", "company", "sales", "crm", "crm_scope"],
+        "properties": {
+          "rank": {"type": "integer", "minimum": 1},
+          "company": {"type": "string", "minLength": 1},
+          "sales": {"type": "number", "minimum": 0},
+          "reported_sales": {"type": "number", "minimum": 0},
+          "reported_currency": {"type": "string"},
+          "fiscal_year_end": {"type": "string", "format": "date"},
+          "projected_rank_range": {
+            "type": "array",
+            "prefixItems": [{"type": "integer", "minimum": 1}, {"type": "integer", "minimum": 1}],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "projected_sales_range": {
+            "type": "array",
+            "prefixItems": [{"type": "number", "minimum": 0}, {"type": "number", "minimum": 0}],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "midpoint_rank": {"type": "integer", "minimum": 1},
+          "crm": {"type": "string", "minLength": 1},
+          "crm_scope": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    },
+    "fx_annual_average_2025": {"type": "object"},
+    "exclusions": {"type": "object"},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

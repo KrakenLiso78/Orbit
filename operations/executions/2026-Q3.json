@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "review_id": "2026-Q3-baseline",
+  "status": "completed",
+  "as_of_date": "2026-09-01",
+  "publication": {
+    "url": "https://pharma-shift-2030.guillermo1983.chatgpt.site",
+    "site_project_id": "appgprj_6a96bc74f53881919f3bdf053ce67362",
+    "deployed_at": "2026-09-01T12:00:05Z",
+    "public_access_confirmed_at": "2026-09-02T08:23:06Z",
+    "access": "public",
+    "desktop_checked": true,
+    "mobile_checked": true,
+    "spanish_checked": true,
+    "english_checked": true
+  },
+  "notification": {
+    "recipient": "lopez_zarrabeitia@yahoo.es",
+    "subject": "Big Pharma ranking – actualización 2026-T3",
+    "sent_at": "2026-09-02",
+    "gmail_message_id": "1a061386c1f4465d",
+    "confirmed_in_sent": true,
+    "duplicate_precheck": true
+  },
+  "artifacts": {
+    "report": "reports/2026-Q3/report.md",
+    "snapshot": "data/snapshots/2026-Q3.json",
+    "sources": "data/sources/2026-Q3.csv",
+    "site": "site/"
+  }
+}

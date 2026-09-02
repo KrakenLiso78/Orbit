@@ -1,0 +1,22 @@
+category,company,subject,source_date,url,evidence_type
+forecast,Multiple,World Preview 2025,2025,https://www.evaluate.com/thought-leadership/world-preview-2025/,third-party forecast
+forecast,Multiple,World Preview 2026,2026,https://www.evaluate.com/thought-leadership/world-preview-2026/,third-party forecast
+results,Eli Lilly,Q2 2026 results and raised guidance,2026,https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full,company reported
+results,Johnson & Johnson,Q2 2026 results and outlook,2026,https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q2-2026-results-raises-2026-outlook/default.aspx,company reported
+results,AstraZeneca,H1 and Q2 2026 results,2026,https://www.astrazeneca.com/media-centre/press-releases/2026/h1-and-q2-2026-results.html,company reported
+results,Roche,H1 2026 results,2026-07-23,https://www.roche.com/media/releases/med-cor-2026-07-23,company reported
+results,AbbVie,Q2 2026 results,2026,https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-second-quarter-2026-financial-results,company reported
+results,Novartis,Q2 2026 results,2026,https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-q2-and-further-advanced-pipeline-full-year-guidance-reaffirmed,company reported
+results,Sanofi,Q2 2026 results,2026-07-30,https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767,company reported
+results,Novo Nordisk,Q2 2026 results,2026,https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916589,company reported
+results,GSK,Q2 2026 results,2026,https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/,company reported
+crm,Eli Lilly,Veeva Vault CRM selected globally,2026-08-11,https://www.veeva.com/kr/resources/veeva-vault-crm-selected-by-eli-lilly-and-company/,vendor announcement
+crm,Merck/MSD,Commitment to Veeva Vault CRM,2025-07-21,https://www.veeva.com/resources/merck-commits-to-veeva-vault-crm/,vendor announcement
+crm,Roche,Expanded partnership and global Pharma Vault CRM,2025-11-24,https://www.veeva.com/resources/veeva-announces-expanded-partnership-with-roche/,vendor announcement
+crm,Bristol Myers Squibb,Commitment to Veeva Vault CRM,2025-09-22,https://ir.veeva.com/news/news-details/2025/Bristol-Myers-Squibb-Commits-to-Veeva-Vault-CRM/default.aspx,vendor announcement
+crm,AstraZeneca,Unified global Salesforce platform,2025-12-04,https://investor.salesforce.com/news/news-details/2025/Salesforces-Agentforce-Life-Sciences-Selected-by-AstraZeneca-as-Its-Unified-Global-Platform-to-Help-Transform-Customer-Engagement/default.aspx,vendor announcement
+crm,Novartis,Global Salesforce rollout,2025-12-17,https://investor.salesforce.com/news/news-details/2025/Salesforces-Agentforce-Life-Sciences-Selected-by-Novartis-to-Drive-More-Personalized-Customer-Engagement-Globally/default.aspx,vendor announcement
+crm,Pfizer,Life Sciences Cloud early adopter,2025-09-25,https://www.salesforce.com/news/stories/life-sciences-cloud-for-customer-engagement-availability/,vendor announcement
+crm,AbbVie,Agentforce Life Sciences named customer,2026,https://www.salesforce.com/news/stories/agentforce-life-sciences-140-organizations/,vendor announcement
+crm,Novo Nordisk,Vault CRM for International Operations only,2026-01-07,https://ir.veeva.com/news/news-details/2026/Novo-Nordisk-International-Operations-Commits-to-Veeva-Vault-CRM/default.aspx,vendor announcement
+crm,GSK,Vault CRM rollout,2025,https://www.veeva.com/eu/customer-stories/gsk-on-going-live-with-vault-crm/,vendor customer story

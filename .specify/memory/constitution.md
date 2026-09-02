@@ -30,6 +30,10 @@ Each execution MUST preserve a dated report, structured snapshot, source registe
 
 The visual artifact MUST remain at the stable project URL, work in Spanish and English, and be checked on desktop and mobile. Completion requires successful deployment, recipient access, one non-duplicated notification email, and confirmation in Sent.
 
+### VIII. Maintained project language is English
+
+All maintained repository content MUST be written in English, regardless of the language used in project conversations. This includes specifications, plans, tasks, reports, methodology, operational notes, code comments, maintainer-facing identifiers, and commit messages. The only exceptions are the immutable original Spanish prompt, the exact subject or content of an email intentionally sent in another language, and the Spanish localisation of the bilingual site. Historical evidence MUST remain verbatim when translation would make the record inaccurate.
+
 ## Artifact boundaries
 
 - `spec.md` defines required outcomes and observable behaviour: the **what and why**.
@@ -43,6 +47,6 @@ The visual artifact MUST remain at the stable project URL, work in Spanish and E
 
 Changes that weaken comparability, source traceability, CRM evidence thresholds, or access verification require an explicit constitution amendment. Each quarterly run MUST check conformance before publication. Versioning follows semantic intent: material principle changes are major, new principles are minor, and clarifications are patch changes.
 
-**Version**: 1.0.1
+**Version**: 1.1.0
 **Ratified**: 2026-09-02
 **Last amended**: 2026-09-02

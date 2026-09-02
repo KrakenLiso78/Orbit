@@ -29,3 +29,7 @@ PharmaShift is a recurring project that reviews the global Big Pharma ranking by
 A review is not complete until research, validation, build, publication, public access, and email delivery are confirmed. Dated historical artifacts are never overwritten. The `latest` references are updated only after every completion control has passed.
 
 Start with [quickstart.md](specs/001-quarterly-big-pharma-review/quickstart.md) when running or validating a review.
+
+## Language policy
+
+All maintained documentation, reports, code comments, maintainer-facing identifiers, operational notes, and commit messages are written in English. Exceptions are limited to the immutable original Spanish prompt, email subjects or content deliberately sent in another language, and the Spanish localisation of the bilingual site.

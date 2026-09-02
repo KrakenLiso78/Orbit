@@ -35,7 +35,12 @@ Before researching or changing the site, read:
 - Verify desktop, mobile, and ES/EN before publishing.
 - Search Sent for the exact subject before sending an email and record its ID afterwards.
 - Use Conventional Commits and keep each commit focused on one checkpoint.
-- Maintain project documentation and reports in English. Preserve source material in its original language when required for auditability.
+- Maintain all repository documentation, reports, specifications, plans, task descriptions, code comments, identifiers intended for maintainers, commit messages, and operational notes in English, regardless of the language used in chat.
+- The only permitted non-English content is:
+  1. the immutable original Spanish prompt;
+  2. the exact subject or content of an email intentionally sent in another language;
+  3. the Spanish localisation of the bilingual site.
+- Do not translate historical evidence when translation would make it inaccurate; label it clearly as quoted or immutable source material.
 
 ## Initial state
 

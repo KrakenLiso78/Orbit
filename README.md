@@ -2,6 +2,10 @@
 
 Orbit is a personal career intelligence CRM where companies, market signals, professional relationships, job opportunities, and applications orbit around the candidate.
 
+## License
+
+Orbit is licensed under the [GNU Affero General Public License v3.0](LICENSE) (`AGPL-3.0-only`). See [LICENSE](LICENSE) for the complete terms and the source-availability obligations for network use.
+
 ## PharmaShift
 
 PharmaShift is a recurring project that reviews the global Big Pharma ranking by comparable medicines and vaccine sales, its five-year outlook, and the commercial CRM landscape.

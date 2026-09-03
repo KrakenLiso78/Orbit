@@ -6,7 +6,7 @@
 
 ## Approach
 
-PharmaShift is maintained as one repository with four artifact layers:
+Orbit maintains the PharmaShift / Market Intelligence capability in this repository with four artifact layers:
 
 1. **SDD definition** in `specs/001-quarterly-big-pharma-review/`.
 2. **Historical evidence** in `reports/`, `data/`, and `operations/`.
@@ -57,7 +57,7 @@ Each quarterly review reads `latest` first, creates new dated files, and only th
 ## Directory structure
 
 ```text
-PharmaShift/
+Orbit/
 ├── .specify/memory/constitution.md
 ├── AGENTS.md
 ├── README.md

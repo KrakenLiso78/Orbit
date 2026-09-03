@@ -7,7 +7,7 @@
 
 ## Problem and desired outcome
 
-Sector rankings often combine incompatible businesses, fiscal periods, and metrics, while forecasts and CRM attributions may appear more certain than the available evidence allows. PharmaShift must provide a comparable, auditable, and easy-to-understand quarterly review that preserves enough history to identify material changes only.
+Sector rankings often combine incompatible businesses, fiscal periods, and metrics, while forecasts and CRM attributions may appear more certain than the available evidence allows. Orbit's Market Intelligence capability must provide a comparable, auditable, and easy-to-understand quarterly review that preserves enough history to identify material changes only.
 
 ## User scenarios and testing
 

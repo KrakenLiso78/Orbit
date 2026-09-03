@@ -1,4 +1,6 @@
-# PharmaShift Constitution
+# Orbit Constitution
+
+Orbit CRM is a private personal career intelligence product. Its integrated capabilities are PharmaShift / Market Intelligence, Job Opportunity Monitoring, Fit Scoring, Personal CRM, a private dashboard, and the public PharmaShift market-intelligence site. The public site is a separate surface and does not make Personal CRM records public.
 
 ## Core principles
 
@@ -34,6 +36,14 @@ The visual artifact MUST remain at the stable project URL, work in Spanish and E
 
 All maintained repository content MUST be written in English, regardless of the language used in project conversations. This includes specifications, plans, tasks, reports, methodology, operational notes, code comments, maintainer-facing identifiers, and commit messages. The only exceptions are the immutable original Spanish prompt, the exact subject or content of an email intentionally sent in another language, and the Spanish localisation of the bilingual site. Historical evidence MUST remain verbatim when translation would make the record inaccurate.
 
+### IX. Personal CRM is private, historical, and candidate-controlled
+
+Personal CRM MUST be the private system of record for companies, contacts, interactions, opportunities, job postings, submitted applications, tasks, materials, and outcomes. It MUST preserve dated application evidence, including the applicable job-description snapshot and submitted material version when available. A role closing, a source disappearing, or a fit score changing MUST NOT infer an application decision or outcome. Candidate-specific CRM information MUST NOT be published to the public PharmaShift site without an explicit field-level publication policy.
+
+### X. Capability boundaries remain explicit
+
+Market Intelligence, Job Opportunity Monitoring, Fit Scoring, Personal CRM, the private dashboard, and the public PharmaShift site MUST retain separate responsibilities. A monitoring agent MAY contribute job postings and provenance; a scoring capability MAY contribute versioned assessments; only the candidate MAY confirm an application, decision, or outcome. No capability MAY silently overwrite historical evidence owned by another capability.
+
 ## Artifact boundaries
 
 - `spec.md` defines required outcomes and observable behaviour: the **what and why**.
@@ -45,8 +55,8 @@ All maintained repository content MUST be written in English, regardless of the 
 
 ## Governance
 
-Changes that weaken comparability, source traceability, CRM evidence thresholds, or access verification require an explicit constitution amendment. Each quarterly run MUST check conformance before publication. Versioning follows semantic intent: material principle changes are major, new principles are minor, and clarifications are patch changes.
+Changes that weaken comparability, source traceability, CRM evidence thresholds, private-data protection, application-history integrity, or access verification require an explicit constitution amendment. Each quarterly run MUST check conformance before publication. Versioning follows semantic intent: material principle changes are major, new principles are minor, and clarifications are patch changes.
 
-**Version**: 1.1.0
+**Version**: 1.2.0
 **Ratified**: 2026-09-02
-**Last amended**: 2026-09-02
+**Last amended**: 2026-09-03

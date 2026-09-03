@@ -1,9 +1,9 @@
-# Feature Specification: Pharma Job Opportunity Monitor and Fit Scoring
+# Feature Specification: Job Opportunity Monitor and Fit Scoring
 
 **Branch**: `002-pharma-job-opportunity-monitor`
 **Created**: 2026-09-03
 **Status**: Draft — requirements review
-**Input**: Monitor career opportunities across the 15 pharmaceutical companies tracked by PharmaShift, compare vacancies with the candidate’s professional profile, notify relevant opportunities, and optionally surface selected results in the dashboard while keeping discovery and scoring separate.
+**Input**: Monitor career opportunities across the initial 15 pharmaceutical companies tracked by Orbit's Market Intelligence capability, compare vacancies with the candidate’s professional profile, notify relevant opportunities, and optionally surface selected results in Orbit's private dashboard while keeping discovery and scoring separate.
 
 ## Problem and desired outcome
 
@@ -19,13 +19,13 @@ The feature contains three separately governed capabilities:
 
 1. **Opportunity discovery**: maintains companies and career sources, checks them on schedule, and produces deduplicated job records.
 2. **Fit scoring**: compares a normalised job record with the approved candidate profile and produces an explainable assessment.
-3. **Presentation and notification**: selects eligible results for private notification and, subject to an explicit privacy decision, for dashboard display.
+3. **Presentation and notification**: selects eligible results for private notification and for Orbit's private dashboard. A non-personalised public job view is allowed only under an explicit publication policy.
 
 Discovery must not use the fit score to decide whether a vacancy exists. Scoring must not browse or alter the source vacancy. Presentation must not expose candidate information or scoring rationale beyond the approved publication scope.
 
 ## Initial monitored company universe
 
-The initial universe is derived from the validated `2026-Q3` PharmaShift snapshot:
+The initial universe is derived from the validated `2026-Q3` Orbit Market Intelligence snapshot:
 
 1. Eli Lilly
 2. Pfizer
@@ -125,20 +125,20 @@ As the job seeker, I want to be notified only about sufficiently relevant and fr
 3. **Given** that the score or vacancy content changes materially, **When** the role is reassessed, **Then** an updated notification may be sent and must explain what changed.
 4. **Given** that monitoring or scoring fails, **When** a scheduled cycle ends, **Then** the failure is reported separately from opportunity notifications.
 
-### User Story 6 — Review selected opportunities in PharmaShift (Priority: P2)
+### User Story 6 — Review selected opportunities in Orbit's private dashboard (Priority: P2)
 
-As the dashboard user, I want a concise job-opportunity section containing current role, company, fit score, confidence, freshness, and source link so that I can review the shortlist alongside the sector analysis.
+As the candidate, I want a concise private job-opportunity section containing current role, company, fit score, confidence, freshness, and source link so that I can review the shortlist alongside my active career pipeline.
 
 **Why this priority**: dashboard presentation adds convenience but must not compromise privacy or couple discovery to scoring.
 
-**Independent test**: provide approved publication records and verify that the section displays only current eligible vacancies and no unapproved personal data or internal rationale.
+**Independent test**: provide approved private-dashboard records and verify that the section displays only current eligible vacancies and no unapproved public disclosure.
 
 **Acceptance scenarios**:
 
-1. **Given** a vacancy approved for publication, **When** the dashboard is updated, **Then** it shows role, company, location, fit score, confidence, freshness, and source link in both site languages.
+1. **Given** a vacancy approved for private-dashboard display, **When** the dashboard is updated, **Then** it shows role, company, location, fit score, confidence, freshness, and source link.
 2. **Given** that a vacancy closes or expires, **When** the dashboard refreshes, **Then** it is removed from the active shortlist while remaining in private history.
-3. **Given** that dashboard publication has not received an explicit privacy decision, **When** opportunities are processed, **Then** no personal job-scoring information is added to the public site.
-4. **Given** an approved public-display policy, **When** the dashboard is rendered, **Then** it exposes only the fields explicitly permitted by that policy.
+3. **Given** that public job publication has not received an explicit policy approval, **When** opportunities are processed, **Then** no candidate-specific job-scoring information is added to the public PharmaShift site.
+4. **Given** an approved public-display policy, **When** the public PharmaShift site is rendered, **Then** it exposes only the non-personalised fields explicitly permitted by that policy.
 
 ### User Story 7 — Capture application feedback and improve scoring (Priority: P3)
 
@@ -173,7 +173,7 @@ As the job seeker, I want to record whether I reviewed, dismissed, applied, inte
 
 - **FR-001**: The system MUST maintain a separate, auditable registry of monitored companies and approved vacancy sources.
 - **FR-002**: Each active source MUST record company, URL, geography or business scope, cadence, status, last successful check, and next due check.
-- **FR-003**: The initial registry MUST cover the 15 companies in the validated PharmaShift baseline.
+- **FR-003**: The initial registry MUST cover the 15 companies in the validated Orbit Market Intelligence baseline.
 - **FR-004**: Monitoring cadence MUST be configurable by company and source.
 - **FR-005**: The discovery capability MUST identify new, changed, closed, and unavailable vacancies without using fit scores to suppress discovery.
 - **FR-006**: The system MUST retain source URL, source identifier when available, first-seen time, last-seen time, and source status for every vacancy.
@@ -191,16 +191,16 @@ As the job seeker, I want to record whether I reviewed, dismissed, applied, inte
 - **FR-018**: The system MUST prevent duplicate notifications for unchanged vacancies.
 - **FR-019**: Notifications MUST include the evidence needed for a quick human decision and link to the original vacancy.
 - **FR-020**: Monitoring failures MUST be reported separately from vacancy recommendations.
-- **FR-021**: Dashboard publication MUST consume approved scoring output and MUST NOT trigger discovery or scoring.
-- **FR-022**: The dashboard MUST show only current eligible vacancies and remove closed roles from the active list.
-- **FR-023**: Dashboard content MUST support English and Spanish while maintainer-facing documentation and code remain in English.
-- **FR-024**: Personal job-search information MUST NOT be placed on the public dashboard without an explicit publication policy.
+- **FR-021**: The private dashboard MUST consume approved scoring output and MUST NOT trigger discovery or scoring.
+- **FR-022**: The private dashboard MUST show only current eligible vacancies and remove closed roles from the active list.
+- **FR-023**: The private dashboard MUST make its candidate-facing content available in English and Spanish while maintainer-facing documentation and code remain in English.
+- **FR-024**: Candidate-specific job-search information MUST NOT be placed on the public PharmaShift site without an explicit field-level publication policy.
 - **FR-025**: The system SHOULD capture review, dismissal, application, interview, rejection, withdrawal, and offer outcomes without rewriting historical assessments.
 - **FR-026**: Every monitoring cycle MUST preserve an execution record containing scope, timestamps, source outcomes, discovered changes, scoring outcome, notification outcome, and failures.
 
 ## Key entities
 
-- **Target company**: monitored pharmaceutical company, priority, active status, and relationship to the current PharmaShift ranking.
+- **Target company**: monitored pharmaceutical company, priority, active status, and relationship to the current Orbit Market Intelligence ranking.
 - **Career source**: approved vacancy source with URL, geography, scope, cadence, access status, and check history.
 - **Monitoring cycle**: scheduled review of due sources with start, completion, source results, and failures.
 - **Vacancy**: canonical job opportunity with company, title, location, work arrangement, description, identifiers, dates, status, and provenance.
@@ -208,7 +208,7 @@ As the job seeker, I want to record whether I reviewed, dismissed, applied, inte
 - **Scoring rubric**: versioned assessment dimensions, weights, hard constraints, confidence rules, and threshold definitions.
 - **Fit assessment**: vacancy/profile comparison containing score, confidence, strengths, gaps, constraints, rationale, versions, and timestamp.
 - **Notification**: delivery event with vacancy, channel, date, content scope, and duplicate-prevention key.
-- **Publication record**: approved subset of a fit assessment eligible for dashboard display.
+- **Publication record**: approved subset of a vacancy or fit assessment eligible for private-dashboard display or, under a separate policy, non-personalised public display.
 - **Application outcome**: human-recorded decision or recruiting result linked to the historical vacancy and assessment.
 
 ## Success criteria
@@ -221,7 +221,7 @@ As the job seeker, I want to record whether I reviewed, dismissed, applied, inte
 - **SC-006**: Zero unsupported qualifications are presented as candidate strengths in the reviewed scoring sample.
 - **SC-007**: Zero uncalibrated fit scores are labelled as application-success probabilities.
 - **SC-008**: 100% of notifications link to an open vacancy and are not duplicates of an unchanged prior notification.
-- **SC-009**: 100% of public dashboard entries comply with the approved publication policy and expose no unapproved candidate data.
+- **SC-009**: 100% of public PharmaShift site entries comply with the approved publication policy and expose no candidate-specific data.
 - **SC-010**: The user can decide whether to review or dismiss a notified role using the information in the notification without first opening every source page.
 
 ## Out of scope
@@ -232,7 +232,7 @@ As the job seeker, I want to record whether I reviewed, dismissed, applied, inte
 - Bypassing authentication, CAPTCHAs, rate limits, or source restrictions.
 - Inferring protected characteristics or using them in scoring.
 - Claiming a hiring probability without validated calibration data.
-- Publishing private candidate-profile details or application history on the public dashboard.
+- Publishing private candidate-profile details, fit assessments, or application history on the public PharmaShift site.
 - Replacing the existing quarterly pharmaceutical ranking workflow.
 
 ## Assumptions
@@ -245,9 +245,9 @@ As the job seeker, I want to record whether I reviewed, dismissed, applied, inte
 
 ## Open requirements requiring user confirmation
 
-1. **Candidate source of truth** — `[NEEDS CLARIFICATION: Which CV or profile file should be authoritative, and may the feature use any existing Personal CRM information in addition to it?]`
+1. **Candidate source of truth** — `[NEEDS CLARIFICATION: Which CV or profile file should be authoritative, and may the feature use the candidate-profile versions governed by Orbit CRM?]`
 2. **Target role profile** — `[NEEDS CLARIFICATION: Which role families, seniority levels, functions, and keywords should be actively prioritised or excluded?]`
 3. **Geography and constraints** — `[NEEDS CLARIFICATION: Which countries, remote/hybrid preferences, languages, travel level, work authorisations, and compensation constraints apply?]`
 4. **Notification policy** — `[NEEDS CLARIFICATION: Which channel, frequency, score threshold, and maximum number of roles per digest should be used?]`
-5. **Dashboard privacy** — `[NEEDS CLARIFICATION: Should job matches remain private, appear on a separate private page, or be published in a deliberately limited form on the current public dashboard?]`
+5. **Public job display** — `[NEEDS CLARIFICATION: Should all job matches remain private, or may the public PharmaShift site show a deliberately limited non-personalised job listing?]`
 6. **Success definition** — `[NEEDS CLARIFICATION: Should the MVP show only an explainable fit score, or is there enough historical application/interview/offer data to attempt a separately calibrated success probability?]`

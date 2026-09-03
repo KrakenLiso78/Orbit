@@ -1,25 +1,25 @@
-# Feature Specification: Personal CRM Core
+# Feature Specification: Orbit CRM Core — Personal CRM
 
 **Branch**: `003-personal-crm-core`  
 **Created**: 2026-09-03  
 **Status**: Draft — requirements review  
-**Input**: Establish Personal CRM as the private system of record for target companies, professional relationships, career opportunities, submitted applications, follow-ups, and the exact evidence used at the time of each application. The PharmaShift market monitor and the job opportunity monitor remain separate capabilities that may contribute referenced information to the CRM.
+**Input**: Establish Orbit CRM's Personal CRM capability as the private system of record for target companies, professional relationships, career opportunities, submitted applications, follow-ups, and the exact evidence used at the time of each application. PharmaShift / Market Intelligence, the Job Opportunity Monitor, and Fit Scoring remain separate capabilities that may contribute referenced information to the CRM.
 
 ## Problem and desired outcome
 
 Career-search information is currently fragmented between career sites, messages, materials, and individual records. A role can disappear after an application, a curriculum vitae version can change, and a relationship interaction can be incorrectly treated as a formal vacancy. This prevents the candidate from reconstructing what was applied for, with which material, through which channel, and what happened next.
 
-Personal CRM must provide a private, trustworthy, and durable history of the candidate's target companies, contacts, opportunities, job postings, applications, interactions, tasks, and materials. It must preserve historical evidence without rewriting it when a source changes, a curriculum vitae is updated, or a role closes. The candidate remains the authority for application decisions and outcomes.
+Orbit CRM's Personal CRM capability must provide a private, trustworthy, and durable history of the candidate's target companies, contacts, opportunities, job postings, applications, interactions, tasks, and materials. It must preserve historical evidence without rewriting it when a source changes, a curriculum vitae is updated, or a role closes. The candidate remains the authority for application decisions and outcomes.
 
 ## Scope boundaries
 
 This feature is the system of record for career-relationship and application history. It defines the information and observable behaviour shared by related capabilities, but it does not replace them:
 
-1. **Market intelligence** remains responsible for pharmaceutical-market monitoring and may provide company or market-signal references.
-2. **Job opportunity monitoring** remains responsible for finding, normalising, and scoring vacancies. It may create or update a job-posting record and its provenance, but it must not create a submitted application or infer an application outcome.
+1. **PharmaShift / Market Intelligence** remains responsible for pharmaceutical-market monitoring and may provide company or market-signal references.
+2. **Job Opportunity Monitoring and Fit Scoring** remain responsible for finding, normalising, and assessing vacancies. They may create or update a job-posting record and its provenance, but they must not create a submitted application or infer an application outcome.
 3. **Personal CRM** owns the candidate's relationships, decisions, submitted applications, follow-ups, material-use history, and private view of those records.
 
-All Personal CRM content is private by default. A public dashboard must not display candidate details, application history, submitted materials, or fit rationale unless a separate explicit publication policy approves a limited field set.
+All Personal CRM content is private by default. The public PharmaShift market-intelligence site must not display candidate details, application history, submitted materials, or fit rationale unless a separate explicit publication policy approves a limited field set.
 
 ## User scenarios and testing
 
@@ -122,13 +122,13 @@ As the candidate, I want a private view of active companies, relationships, role
 
 **Why this priority**: a usable view turns the record into an operational CRM, but it depends on the P1 records and history.
 
-**Independent test**: create active and historical records, then verify that the private view distinguishes them and that no Personal CRM content appears on the public PharmaShift site by default.
+**Independent test**: create active and historical records, then verify that Orbit's private dashboard distinguishes them and that no Personal CRM content appears on the public PharmaShift market-intelligence site by default.
 
 **Acceptance scenarios**:
 
 1. **Given** active applications and follow-up tasks, **When** I review my private pipeline, **Then** I can identify their company, role, current state, next action, and relevant due date.
 2. **Given** historical or closed job postings, **When** I review current opportunities, **Then** they do not appear as active roles while remaining searchable in private history.
-3. **Given** that no explicit publication policy exists, **When** Personal CRM data is prepared for a dashboard, **Then** no candidate-specific data is published to the public PharmaShift site.
+3. **Given** that no explicit publication policy exists, **When** Personal CRM data is prepared for display, **Then** no candidate-specific data is published to the public PharmaShift market-intelligence site.
 
 ## Edge cases
 
@@ -168,7 +168,7 @@ As the candidate, I want a private view of active companies, relationships, role
 - **FR-020**: The candidate MUST remain the authority for decisions to apply, dismiss, withdraw, submit, and record outcomes.
 - **FR-021**: The job opportunity monitor MAY contribute job postings and fit assessments with provenance, but MUST NOT create submitted applications or inferred outcomes.
 - **FR-022**: Personal CRM MUST provide a private view that distinguishes active pipeline items from historical records.
-- **FR-023**: Personal CRM data, including applications, materials, fit rationale, and private notes, MUST NOT be published to the public PharmaShift site without an explicit field-level publication policy.
+- **FR-023**: Personal CRM data, including applications, materials, fit rationale, and private notes, MUST NOT be published to the public PharmaShift market-intelligence site without an explicit field-level publication policy.
 - **FR-024**: Any public job-posting display MUST exclude candidate-specific fit scores, application state, materials, private notes, and contact information unless a separate explicit policy permits a field.
 - **FR-025**: Maintainer-facing documentation, labels intended for maintainers, and operational records for this feature MUST be written in English; the public interface may provide an approved Spanish localisation.
 
@@ -198,7 +198,7 @@ As the candidate, I want a private view of active companies, relationships, role
 - **SC-005**: In a monthly audit sample, zero historical applications lose their originally linked material version after a newer version is approved.
 - **SC-006**: In a monthly audit sample, zero relationship-only opportunities are incorrectly shown as submitted applications without an explicit submission record.
 - **SC-007**: The candidate can identify all due follow-ups and active submitted applications in one private review without opening individual historical records.
-- **SC-008**: Zero candidate-specific Personal CRM fields appear on the public PharmaShift site unless an explicit field-level publication policy has been approved and verified.
+- **SC-008**: Zero candidate-specific Personal CRM fields appear on the public PharmaShift market-intelligence site unless an explicit field-level publication policy has been approved and verified.
 
 ## Out of scope
 
@@ -207,13 +207,13 @@ As the candidate, I want a private view of active companies, relationships, role
 - Generating or tailoring a curriculum vitae, cover letter, or application answers.
 - Discovering vacancies, crawling career sites, bypassing access controls, or resolving CAPTCHAs.
 - Calculating the job opportunity monitor's fit score or success probability.
-- Replacing the PharmaShift quarterly market-intelligence workflow.
+- Replacing the PharmaShift / Market Intelligence workflow.
 - Defining the technical storage platform, migration architecture, integration protocol, authentication method, or dashboard implementation.
 - Publicly publishing personal career intentions, applications, relationship notes, materials, or candidate-specific scoring data.
 
 ## Assumptions
 
-- Personal CRM is the system of record for the candidate's private career-search history; agents and dashboards consume or contribute governed references rather than becoming independent sources of truth.
+- Orbit CRM's Personal CRM capability is the system of record for the candidate's private career-search history; agents and dashboards consume or contribute governed references rather than becoming independent sources of truth.
 - The current Personal CRM records and historical application evidence will be assessed for migration or reconciliation in a later implementation plan; this specification does not assert that the existing data model is complete.
 - The job opportunity monitor specified in `002-pharma-job-opportunity-monitor` will use the Personal CRM core once its information contracts are agreed.
 - The candidate manually confirms every submitted application and every application outcome.

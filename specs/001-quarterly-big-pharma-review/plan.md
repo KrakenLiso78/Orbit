@@ -6,7 +6,7 @@
 
 ## Approach
 
-Orbit maintains the PharmaShift / Market Intelligence capability in this repository with four artifact layers:
+Orbit CRM maintains the Market Intelligence capability in this repository with four artifact layers:
 
 1. **SDD definition** in `specs/001-quarterly-big-pharma-review/`.
 2. **Historical evidence** in `reports/`, `data/`, and `operations/`.
@@ -87,6 +87,7 @@ Orbit/
 - The Sites identifier remains only in `site/.openai/hosting.json`.
 - `latest` artifacts are validated copies rather than symbolic links for maximum portability.
 - Validation uses project-native tools: JSON parsing, focused linting, build, and browser checks at two breakpoints.
+- [Semantic Git tags and GitHub Releases](../../docs/versioning.md) are the version source of truth; a tagged release is built before its GitHub Release is published.
 
 ## Quality controls
 

@@ -1,4 +1,8 @@
-# PharmaShift
+# Orbit
+
+Orbit is a personal career intelligence CRM where companies, market signals, professional relationships, job opportunities, and applications orbit around the candidate.
+
+## PharmaShift
 
 PharmaShift is a recurring project that reviews the global Big Pharma ranking by comparable medicines and vaccine sales, its five-year outlook, and the commercial CRM landscape.
 

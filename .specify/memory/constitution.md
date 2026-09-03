@@ -1,6 +1,6 @@
 # Orbit Constitution
 
-Orbit CRM is a private personal career intelligence product. Its integrated capabilities are PharmaShift / Market Intelligence, Job Opportunity Monitoring, Fit Scoring, Personal CRM, a private dashboard, and the public PharmaShift market-intelligence site. The public site is a separate surface and does not make Personal CRM records public.
+Orbit CRM is a private personal career intelligence product. Its integrated capabilities are Market Intelligence, Job Opportunity Monitoring, Fit Scoring, Personal CRM, a private dashboard, and a public market-intelligence site. The public site is a separate surface and does not make Personal CRM records public.
 
 ## Core principles
 
@@ -38,11 +38,17 @@ All maintained repository content MUST be written in English, regardless of the 
 
 ### IX. Personal CRM is private, historical, and candidate-controlled
 
-Personal CRM MUST be the private system of record for companies, contacts, interactions, opportunities, job postings, submitted applications, tasks, materials, and outcomes. It MUST preserve dated application evidence, including the applicable job-description snapshot and submitted material version when available. A role closing, a source disappearing, or a fit score changing MUST NOT infer an application decision or outcome. Candidate-specific CRM information MUST NOT be published to the public PharmaShift site without an explicit field-level publication policy.
+Personal CRM MUST be the private system of record for companies, contacts, interactions, opportunities, job postings, submitted applications, tasks, materials, and outcomes. It MUST preserve dated application evidence, including the applicable job-description snapshot and submitted material version when available. A role closing, a source disappearing, or a fit score changing MUST NOT infer an application decision or outcome. Candidate-specific CRM information MUST NOT be published to the public market-intelligence site without an explicit field-level publication policy.
 
 ### X. Capability boundaries remain explicit
 
-Market Intelligence, Job Opportunity Monitoring, Fit Scoring, Personal CRM, the private dashboard, and the public PharmaShift site MUST retain separate responsibilities. A monitoring agent MAY contribute job postings and provenance; a scoring capability MAY contribute versioned assessments; only the candidate MAY confirm an application, decision, or outcome. No capability MAY silently overwrite historical evidence owned by another capability.
+Market Intelligence, Job Opportunity Monitoring, Fit Scoring, Personal CRM, the private dashboard, and the public market-intelligence site MUST retain separate responsibilities. A monitoring agent MAY contribute job postings and provenance; a scoring capability MAY contribute versioned assessments; only the candidate MAY confirm an application, decision, or outcome. No capability MAY silently overwrite historical evidence owned by another capability.
+
+### XI. Releases are semantic, immutable, and verifiable
+
+The authoritative product version MUST be an immutable `vMAJOR.MINOR.PATCH` Git tag and its corresponding GitHub Release. Conventional Commit intent determines the version increment: `fix:` increments the patch, `feat:` increments the minor version, and `!` or `BREAKING CHANGE:` increments the major version. Documentation, maintenance, test, and continuous-integration changes MUST NOT create a release by themselves.
+
+Before a GitHub Release is published, automation MUST validate the tag format and build the tagged `site/` source successfully. Existing tags MUST NOT be rewritten. Pull request titles SHOULD follow Conventional Commits and are validated automatically; the repository's release automation remains the executable source of truth. The operational procedure is maintained in `docs/versioning.md`.
 
 ## Artifact boundaries
 
@@ -55,8 +61,8 @@ Market Intelligence, Job Opportunity Monitoring, Fit Scoring, Personal CRM, the 
 
 ## Governance
 
-Changes that weaken comparability, source traceability, CRM evidence thresholds, private-data protection, application-history integrity, or access verification require an explicit constitution amendment. Each quarterly run MUST check conformance before publication. Versioning follows semantic intent: material principle changes are major, new principles are minor, and clarifications are patch changes.
+Changes that weaken comparability, source traceability, CRM evidence thresholds, private-data protection, application-history integrity, access verification, or release integrity require an explicit constitution amendment. Each quarterly run MUST check conformance before publication. Constitution versioning follows semantic intent: material principle changes are major, new principles are minor, and clarifications are patch changes.
 
-**Version**: 1.2.0
+**Version**: 1.3.0
 **Ratified**: 2026-09-02
 **Last amended**: 2026-09-03

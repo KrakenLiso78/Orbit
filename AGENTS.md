@@ -2,7 +2,7 @@
 
 ## Context
 
-This repository follows Spec-Driven Development using a GitHub Spec Kit-compatible structure. The canonical feature directory is `specs/001-quarterly-big-pharma-review`.
+This repository follows Spec-Driven Development using a GitHub Spec Kit-compatible structure. The core review feature is `specs/001-quarterly-big-pharma-review`; additional features use their own numbered directories, including `specs/002-pharma-job-opportunity-monitor`.
 
 ## Required reading order
 

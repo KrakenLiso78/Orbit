@@ -12,6 +12,7 @@ PharmaShift is a recurring project that reviews the global Big Pharma ranking by
 | `.specify/memory/constitution.md` | Non-negotiable principles and governance |
 | `spec.md` | Convenient root copy of the functional specification |
 | `specs/001-quarterly-big-pharma-review/spec.md` | What the product must achieve and how it is accepted |
+| `specs/002-pharma-job-opportunity-monitor/spec.md` | Draft requirements for vacancy discovery, fit scoring, notification, and dashboard presentation |
 | `specs/001-quarterly-big-pharma-review/plan.md` | How each review is researched, validated, published, and operated |
 | `specs/001-quarterly-big-pharma-review/tasks.md` | Small, ordered, verifiable tasks |
 | `specs/001-quarterly-big-pharma-review/research.md` | Durable methodology decisions |
